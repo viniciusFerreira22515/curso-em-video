@@ -1,0 +1,5 @@
+print('{}Desafio 015{}'.format('=' * 5, '=' * 5))
+dias = int(input('Número de dias em aluguel: '))
+km = float(input('Quilômetros percorridos: '))
+p = (60 * dias) + (0.15 * km)
+print('Total a pagar: R${:.2f}'.format(p))
